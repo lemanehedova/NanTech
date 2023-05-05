@@ -1,0 +1,64 @@
+body {
+    background-image:url(https://www.nantech.az/img/sign.svg) ;
+}
+.txt,.txt1{
+   text-align: center;
+   
+}
+.txt1{
+    margin-top: 30px;
+}
+.txt{
+    margin-top: 150px;
+}
+
+.main{
+    display: flex;
+    margin: 0 auto;
+  flex-direction:column ;
+    justify-content: center;
+    width: 30%;
+    height: 400px;
+    background-color: beige;
+    text-align: center;
+    position: relative;
+    box-shadow: -1px -1px 9px 4px #c3c272;
+    transition: .4s;
+    border-radius: 10px;  
+}
+.main:hover{
+    box-shadow: -1px -1px 20px 20px #c3c272;
+}
+.txt .txt2{
+    color: red;
+}
+.txt .txt3{
+    color: rgb(31, 59, 216);
+}
+.main .inp1,.inp2,.btn {
+    width: 50%;
+    height: 30px;
+    margin: 0 auto;
+    border-radius: 10px;   
+}
+.btn{
+    background-color: red;
+    color: azure;
+}
+.txt1{
+    font-size: 20px;
+}
+.main .las{
+    margin-left: 270px;
+    margin-top:70px;
+    position: absolute;
+}
+input:focus{
+    outline:none;
+    border: 1px solid red;
+}
+@media (max-width:447px) {
+    .main{
+        width: 80%;
+    }
+}
